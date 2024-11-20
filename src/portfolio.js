@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -87,6 +87,74 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
+      title: "Blockchain Development",
+      fileName: "FullStackImg",
+      skills: [
+        "⚡ Building responsive web3 front end using React, web3.js and ether.js",
+        "⚡ Developing smart  contracts in Solidity, solana, chainlink",
+        "⚡ Creating blockchain backend and integrating with front end",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Ethereum",
+          fontAwesomeClassname: "mdi:ethereum",
+          style: {
+            color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Blockchain Technology",
+          fontAwesomeClassname: "simple-icons:blockchaindotcom",
+          style: {
+            color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Solidity",
+          fontAwesomeClassname: "skill-icons:solidity",
+          style: {
+            color: "#CC6699",
+          },
+        },
+        {
+          skillName: "Web3",
+          fontAwesomeClassname: "logos:web3js",
+          style: {
+            backgroundColor: "#000000",
+            color: "#F7DF1E",
+          },
+        },
+        {
+          skillName: "ReactJS",
+          fontAwesomeClassname: "simple-icons:react",
+          style: {
+            color: "#61DAFB",
+          },
+        },
+        {
+          skillName: "NodeJS",
+          fontAwesomeClassname: "devicon-plain:nodejs-wordmark",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "NPM",
+          fontAwesomeClassname: "simple-icons:npm",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Yarn",
+          fontAwesomeClassname: "simple-icons:yarn",
+          style: {
+            color: "#2C8EBB",
+          },
+        }
+      ],
+    },
+    {
       title: "Python Developer",
       fileName: "DataScienceImg",
       skills: [
@@ -96,23 +164,22 @@ const skills = {
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "FastAPI",
+          fontAwesomeClassname: "devicon-plain:fastapi-wordmark",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Django",
+          fontAwesomeClassname: "vscode-icons:file-type-django",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
+            backgroundColor: "transparent",
           },
         },
         {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Selenium",
+          fontAwesomeClassname: "devicon:selenium",
           style: {
             backgroundColor: "transparent",
           },
@@ -126,8 +193,19 @@ const skills = {
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "devicon:postgresql-wordmark",
+          style: {
+            backgroundColor: "transparent",
+            color: "#3776AB",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "skill-icons:docker",
+          style: {
+            backgroundColor: "transparent",
+          }
         },
       ],
     },
@@ -219,7 +297,7 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
+        "⚡ Deploying web applications on cloud to use on all devices",
         "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
       ],
       softwareSkills: [
@@ -382,7 +460,7 @@ const degrees = {
     {
       title: "Lead City University",
       subtitle: "Bsc Business Administrion and Management Studies",
-      logo_path: "iiitk_logo.png",
+      logo_path: "logo.png",
       alt_name: "LCU ng",
       duration: "2004 - 2008",
       descriptions: [
@@ -418,104 +496,23 @@ const certifications = {
       color_code: "#8C151599",
     },
     {
-      title: "Deep Learning",
-      subtitle: "- Andrew Ng",
+      title: "Moreton Bay Regional Council",
+      subtitle: "- Moretone Bay Regional Council",
       logo_path: "deeplearning_ai_logo.png",
       certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
+        "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/2t4QruSmKkrN8jr7G/7q8DN5enMzSHqLwev_2t4QruSmKkrN8jr7G_7QxMRzAkrLZgAezWB_1730827953648_completion_certificate.pdf",
       alt_name: "deeplearning.ai",
       color_code: "#00000099",
     },
     {
-      title: "ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- Alex Aklson",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Big Data",
+      title: "Andela Learning Center",
       subtitle: "- Kim Akers",
-      logo_path: "microsoft_logo.png",
+      logo_path: "andela.png",
       certificate_link:
-        "https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
-      alt_name: "Microsoft",
+        "https://drive.google.com/file/d/1-xgxW5vHXn_-2BLFRSg0RpqVDjaGZZLq/view?usp=sharing",
+      alt_name: "Andela",
       color_code: "#D83B0199",
-    },
-    {
-      title: "Advanced Data Science",
-      subtitle: "- Romeo Kienzler",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
-      alt_name: "IBM",
-      color_code: "#1F70C199",
-    },
-    {
-      title: "Advanced ML on GCP",
-      subtitle: "- GCP Training",
-      logo_path: "google_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
-      alt_name: "Google",
-      color_code: "#0C9D5899",
-    },
-    {
-      title: "DL on Tensorflow",
-      subtitle: "- Laurence Moroney",
-      logo_path: "deeplearning_ai_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-      alt_name: "deeplearning.ai",
-      color_code: "#00000099",
-    },
-    {
-      title: "Fullstack Development",
-      subtitle: "- Jogesh Muppala",
-      logo_path: "coursera_logo.png",
-      certificate_link:
-        "https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
-      alt_name: "Coursera",
-      color_code: "#2A73CC",
-    },
-    {
-      title: "Kuberenetes on GCP",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
-    {
-      title: "Cryptography",
-      subtitle: "- Saurabh Mukhopadhyay",
-      logo_path: "nptel_logo.png",
-      certificate_link:
-        "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-      alt_name: "NPTEL",
-      color_code: "#FFBB0099",
-    },
-    {
-      title: "Cloud Architecture",
-      subtitle: "- Qwiklabs",
-      logo_path: "gcp_logo.png",
-      certificate_link:
-        "https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
-      alt_name: "GCP",
-      color_code: "#4285F499",
-    },
+    }
   ],
 };
 
@@ -535,7 +532,7 @@ const experience = {
           title: "Founder and Senior Software Engineer",
           company: "Nearbis Ltd",
           company_url: "#",
-          logo_path: "tiktok_logo.png",
+          logo_path: "nearbis.png",
           duration: "August 2024 - Present",
           location: "Nigeria",
           description:
@@ -546,7 +543,7 @@ const experience = {
           title: "Backend Engineer",
           company: "Designtek Empire",
           company_url: "#",
-          logo_path: "tiktok_logo.png",
+          logo_path: "work.webp",
           duration: "November 2023 - Present",
           location: "Nigeria",
           description:
@@ -557,7 +554,7 @@ const experience = {
           title: "Backend Developer",
           company: "EDUITY LLC",
           company_url: "https://Eduity.net",
-          logo_path: "muffito_logo.png",
+          logo_path: "work.webp",
           duration: "Feb 2023 - Nov 2023",
           location: "USA",
           description:
@@ -568,7 +565,7 @@ const experience = {
           title: "Backend Developer",
           company: "Lyft",
           company_url: "#",
-          logo_path: "freecopy_logo.png",
+          logo_path: "work.webp",
           duration: "Aug 2023 - Dec 2023",
           location: "USA",
           description:
@@ -696,60 +693,60 @@ const publicationsHeader = {
 
 const publications = {
   data: [
-    {
-      id: "neuro-symbolic-sudoku-solver",
-      name: "Neuro-Symbolic Sudoku Solver",
-      createdAt: "2023-07-02T00:00:00Z",
-      description: "Paper published in KDD KiML 2023",
-      url: "https://arxiv.org/abs/2307.00653",
-    },
-    {
-      id: "mdp-diffusion",
-      name: "MDP-Diffusion",
-      createdAt: "2023-09-19T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/mdp-diffusion/",
-    },
-    {
-      id: "consistency-models",
-      name: "Consistency Models",
-      createdAt: "2023-10-12T00:00:00Z",
-      description: "Blog published in Paperspace",
-      url: "https://blog.paperspace.com/consistency-models/",
-    },
+    // {
+    //   id: "neuro-symbolic-sudoku-solver",
+    //   name: "Neuro-Symbolic Sudoku Solver",
+    //   createdAt: "2023-07-02T00:00:00Z",
+    //   description: "Paper published in KDD KiML 2023",
+    //   url: "https://arxiv.org/abs/2307.00653",
+    // },
+    // {
+    //   id: "mdp-diffusion",
+    //   name: "MDP-Diffusion",
+    //   createdAt: "2023-09-19T00:00:00Z",
+    //   description: "Blog published in Paperspace",
+    //   url: "https://blog.paperspace.com/mdp-diffusion/",
+    // },
+    // {
+    //   id: "consistency-models",
+    //   name: "Consistency Models",
+    //   createdAt: "2023-10-12T00:00:00Z",
+    //   description: "Blog published in Paperspace",
+    //   url: "https://blog.paperspace.com/consistency-models/",
+    // },
   ],
 };
 
 // Contact Page
 const contactPageData = {
-  contactSection: {
-    title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
-    description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-  },
-  blogSection: {
-    title: "Blogs",
-    subtitle:
-      "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-    link: "https://blogs.ashutoshhathidara.com/",
-    avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-    locality: "San Jose",
-    country: "USA",
-    region: "California",
-    postalCode: "95129",
-    streetAddress: "Saratoga Avenue",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
-  },
-  phoneSection: {
-    title: "",
-    subtitle: "",
-  },
+  // contactSection: {
+  //   title: "Contact Me",
+  //   profile_image_path: "animated_ashutosh.png",
+  //   description:
+  //     "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+  // },
+  // blogSection: {
+  //   title: "Blogs",
+  //   subtitle:
+  //     "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
+  //   link: "https://blogs.ashutoshhathidara.com/",
+  //   avatar_image_path: "blogs_image.svg",
+  // },
+  // addressSection: {
+  //   title: "Address",
+  //   subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
+  //   locality: "San Jose",
+  //   country: "USA",
+  //   region: "California",
+  //   postalCode: "95129",
+  //   streetAddress: "Saratoga Avenue",
+  //   avatar_image_path: "address_image.svg",
+  //   location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+  // },
+  // phoneSection: {
+  //   title: "",
+  //   subtitle: "",
+  // },
 };
 
 export {
