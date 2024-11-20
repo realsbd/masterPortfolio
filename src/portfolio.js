@@ -719,34 +719,34 @@ const publications = {
 
 // Contact Page
 const contactPageData = {
-  // contactSection: {
-  //   title: "Contact Me",
-  //   profile_image_path: "animated_ashutosh.png",
-  //   description:
-  //     "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
-  // },
-  // blogSection: {
-  //   title: "Blogs",
-  //   subtitle:
-  //     "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
-  //   link: "https://blogs.ashutoshhathidara.com/",
-  //   avatar_image_path: "blogs_image.svg",
-  // },
-  // addressSection: {
-  //   title: "Address",
-  //   subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
-  //   locality: "San Jose",
-  //   country: "USA",
-  //   region: "California",
-  //   postalCode: "95129",
-  //   streetAddress: "Saratoga Avenue",
-  //   avatar_image_path: "address_image.svg",
-  //   location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
-  // },
-  // phoneSection: {
-  //   title: "",
-  //   subtitle: "",
-  // },
+  contactSection: {
+    title: "Contact Me",
+    profile_image_path: "animated_ashutosh.png",
+    description:
+      "My expertise in frontend, backend, and UX/UI development allows me to create user-friendly interfaces for these applications, while my knowledge of React, Node.js, Solidity, and Ethereum enables me to develop scalable and secure solutions. I also have a strong foundation in data analysis, which helps me optimize the performance of these applications and measure their impact. I am passionate about creating innovative solutions and working effectively in a team to achieve our goals. Let's connect and explore how I can contribute to your organization's success.",
+  },
+  blogSection: {
+    // title: "Blogs",
+    // subtitle:
+    //   "I like to document some of my experiences in professional career journey as well as some technical knowledge sharing.",
+    // link: "https://blogs.ashutoshhathidara.com/",
+    // avatar_image_path: "blogs_image.svg",
+  },
+  addressSection: {
+    // title: "Address",
+    // subtitle: "Saratoga Ave, San Jose, CA, USA 95129",
+    // locality: "San Jose",
+    // country: "USA",
+    // region: "California",
+    // postalCode: "95129",
+    // streetAddress: "Saratoga Avenue",
+    // avatar_image_path: "address_image.svg",
+    // location_map_link: "https://maps.app.goo.gl/NvYZqa34Wye4tpS17",
+  },
+  phoneSection: {
+    title: "",
+    subtitle: "",
+  },
 };
 
 export {
